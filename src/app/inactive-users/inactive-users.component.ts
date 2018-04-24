@@ -9,7 +9,7 @@ import { UsersService } from '../users.service';
 export class InactiveUsersComponent {
   users: string[];
 
-  constructor(private usersService: UsersService) { 
+  constructor(private usersService: UsersService) {
     this.users = this.usersService.activeUsers;
   }
 
